@@ -1,3 +1,7 @@
+html, body { 
+    height:100%; 
+}
+
 .mySlides {
     display: none;
 }
@@ -12,7 +16,7 @@
 
 .slideContainer img {
     width: 100%;
-    height: 100%;
+    height: 100vw;
 }
 
 .dot {
