@@ -29,7 +29,12 @@
             slide.appendChild(img);
             slide.appendChild(cap);
             document.querySelector(".slideContainer").appendChild(slide);
-
+            let span = document.createElement("span");
+            span.classList.add("dot");
+            span.addEventListener("click",function(){
+                moveSlide(x);
+            })
+            document.querySelector(".indicator").appendChild(span);
         }
         
     }
